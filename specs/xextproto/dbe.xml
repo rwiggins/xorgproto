@@ -1005,7 +1005,7 @@ DBEGetVersion
 1     1                       Reply
 1                             unused
 2     CARD16                  sequence number
-4     CARD32                  reply length
+4     CARD32                  j, reply length
 4     CARD32                  m, number of SCREENVISINFOs in list
 20                            unused
 4j    LISTofSCREENVISINFO     m SCREENVISINFOs
