@@ -15,6 +15,7 @@ include:
   - project: 'freedesktop/ci-templates'
     ref: *template_sha
     file: '/templates/ci-fairy.yml'
+  - template: Security/SAST.gitlab-ci.yml
 
 # global variables to be used by most/all jobs.
 variables:
