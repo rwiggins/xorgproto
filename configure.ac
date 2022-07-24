@@ -25,7 +25,7 @@ AC_PREREQ([2.60])
 # keep version in sync with meson.build
 AC_INIT([xorgproto], [2022.1],
         [https://gitlab.freedesktop.org/xorg/proto/xorgproto/issues])
-AM_INIT_AUTOMAKE([foreign dist-bzip2])
+AM_INIT_AUTOMAKE([foreign dist-xz])
 
 # Require xorg-macros: XORG_DEFAULT_OPTIONS
 m4_ifndef([XORG_MACROS_VERSION],
