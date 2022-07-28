@@ -157,6 +157,7 @@ AC_CONFIG_FILES([applewmproto.pc
 		 xf86vidmodeproto.pc
 		 xineramaproto.pc
 		 xproto.pc
-		 xproxymngproto.pc])
+		 xproxymngproto.pc
+		 xwaylandproto.pc])
 
 AC_OUTPUT

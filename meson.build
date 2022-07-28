@@ -51,6 +51,7 @@ pcs = [
         'xf86vidmodeproto',
         'xineramaproto',
         'xproto',
+        'xwaylandproto',
 ]
 
 pc_data = configuration_data()
@@ -78,7 +79,8 @@ docs = files('compositeproto.txt',
              'randrproto.txt',
              'renderproto.txt',
              'resproto.txt',
-             'xv-protocol-v2.txt')
+             'xv-protocol-v2.txt',
+             'xwaylandproto.txt')
 install_data(docs,
              install_dir: get_option('datadir') / 'doc' / 'xorgproto')
 
