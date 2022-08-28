@@ -129,7 +129,7 @@ The name of this extension is "Present"
 	It is the clients responsibility to ensure that the server
 	supports a version which is compatible with its expectations.
 
-	Backwards compatible changes included addition of new
+	Backwards compatible changes include addition of new
 	requests.
 
 			     ❄ ❄ ❄  ❄  ❄ ❄ ❄ 
@@ -265,7 +265,7 @@ The name of this extension is "Present"
 
 	Delivers a PresentCompleteNotifyEvent with kind
 	PresentCompleteKindNotifyMSC after the time specified by
-	'target-msc', 'divisor' and 'remainder').
+	'target-msc', 'divisor' and 'remainder'.
 
 	'serial' is an arbitrary client-specified value which will be
 	returned in the event so that the client can associate the
@@ -546,7 +546,7 @@ Present provides similar functionality to the DRI2SwapBuffers and
 requests, however Present uses X pixmaps to refer to the new window
 contents instead of the DRI2 buffer attachments.
 
-Present and DRI3 are designed in conjunction to replace DRI2
+Present and DRI3 are designed in conjunction to replace DRI2.
 
 10.4 XvMC / Xv
 
