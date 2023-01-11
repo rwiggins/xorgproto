@@ -19,7 +19,8 @@
 # SOFTWARE.
 
 # keep version in sync with configure.ac
-project('xorgproto', 'c', license : 'MIT', version : '2022.2')
+project('xorgproto', 'c', license : 'MIT', version : '2022.2',
+        meson_version : '>=0.50.0')
 cc = meson.get_compiler('c')
 
 pcs = [
@@ -114,7 +115,7 @@ ext_xorgproto = declare_dependency(
 
 subdir('include')
 
-keysymfile = join_paths(meson.source_root(), 'include', 'X11', 'XF86keysym.h')
+keysymfile = meson.source_root() / 'include' / 'X11' / 'XF86keysym.h'
 test('evdev-keysym-check',
      find_program('scripts/keysym-generator.py'),
      args: ['-v', '--header', keysymfile, 'verify'])
