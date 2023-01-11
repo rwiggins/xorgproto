@@ -93,8 +93,8 @@ meson:
     - mkdir -p ../_inst
     - meson builddir --prefix="$PWD/../_inst" $MESON_OPTIONS
     - meson configure builddir
-    - ninja -C builddir test
-    - ninja -C builddir install
+    - meson test -C builddir
+    - meson install -C builddir
 
 autotools:
   extends:
@@ -127,7 +127,7 @@ meson from tarball:
     - pushd _tarball_build/xorgproto-*
     - meson builddir
     - meson configure builddir
-    - ninja -C builddir test
+    - meson test -C builddir
   needs:
     - autotools
   variables:
@@ -145,7 +145,7 @@ compare meson and autotools:
     - ln -sf $PWD/_meson_inst $PWD/_inst
     - meson builddir
     - meson configure builddir --prefix=$PWD/_inst
-    - ninja -C builddir install
+    - meson install -C builddir
     - rm $PWD/_inst
     - ln -sf $PWD/_autotools_inst $PWD/_inst
     - autoreconf -ivf
@@ -179,9 +179,6 @@ check versions are in sync:
   script:
     - autoreconf -ivf
     - ./configure --version | head -n 1 | sed -e 's/xorgproto configure //' > autotools.version
-    - |
-      meson builddir
-      pushd builddir
-      meson introspect --projectinfo | jq -r '.version' > ../meson.version
-      popd
+    - meson builddir
+    - meson introspect --projectinfo builddir | jq -r '.version' > meson.version
     - diff -u autotools.version meson.version || (echo "ERROR - autotools and meson versions not in sync" && false)
