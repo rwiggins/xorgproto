@@ -75,7 +75,6 @@ docs = files('compositeproto.txt',
              'dri2proto.txt',
              'dri3proto.txt',
              'fixesproto.txt',
-             'PM_spec',
              'presentproto.txt',
              'randrproto.txt',
              'renderproto.txt',
@@ -107,6 +106,9 @@ if get_option('legacy') == true
             configuration : pc_data,
         )
     endforeach
+    legacy_docs = files('PM_spec')
+    install_data(legacy_docs,
+                 install_dir: get_option('datadir') / 'doc' / 'xorgproto')
 endif
 
 ext_xorgproto = declare_dependency(
