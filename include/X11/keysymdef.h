@@ -666,7 +666,8 @@ SOFTWARE.
 #define XK_periodcentered                0x00b7  /* U+00B7 MIDDLE DOT */
 #define XK_cedilla                       0x00b8  /* U+00B8 CEDILLA */
 #define XK_onesuperior                   0x00b9  /* U+00B9 SUPERSCRIPT ONE */
-#define XK_masculine                     0x00ba  /* U+00BA MASCULINE ORDINAL INDICATOR */
+#define XK_ordmasculine                  0x00ba  /* U+00BA MASCULINE ORDINAL INDICATOR */
+#define XK_masculine                     0x00ba  /* deprecated inconsistent name */
 #define XK_guillemetright                0x00bb  /* U+00BB RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK */
 #define XK_guillemotright                0x00bb  /* deprecated misspelling */
 #define XK_onequarter                    0x00bc  /* U+00BC VULGAR FRACTION ONE QUARTER */
