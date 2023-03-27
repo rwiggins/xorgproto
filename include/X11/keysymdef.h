@@ -1145,33 +1145,47 @@ SOFTWARE.
 #define XK_Macedonia_gje                 0x06a2  /* U+0453 CYRILLIC SMALL LETTER GJE */
 #define XK_Cyrillic_io                   0x06a3  /* U+0451 CYRILLIC SMALL LETTER IO */
 #define XK_Ukrainian_ie                  0x06a4  /* U+0454 CYRILLIC SMALL LETTER UKRAINIAN IE */
+#define XK_Ukranian_je                   0x06a4  /* deprecated */
 #define XK_Macedonia_dse                 0x06a5  /* U+0455 CYRILLIC SMALL LETTER DZE */
 #define XK_Ukrainian_i                   0x06a6  /* U+0456 CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I */
+#define XK_Ukranian_i                    0x06a6  /* deprecated */
 #define XK_Ukrainian_yi                  0x06a7  /* U+0457 CYRILLIC SMALL LETTER YI */
+#define XK_Ukranian_yi                   0x06a7  /* deprecated */
 #define XK_Cyrillic_je                   0x06a8  /* U+0458 CYRILLIC SMALL LETTER JE */
+#define XK_Serbian_je                    0x06a8  /* deprecated */
 #define XK_Cyrillic_lje                  0x06a9  /* U+0459 CYRILLIC SMALL LETTER LJE */
+#define XK_Serbian_lje                   0x06a9  /* deprecated */
 #define XK_Cyrillic_nje                  0x06aa  /* U+045A CYRILLIC SMALL LETTER NJE */
+#define XK_Serbian_nje                   0x06aa  /* deprecated */
 #define XK_Serbian_tshe                  0x06ab  /* U+045B CYRILLIC SMALL LETTER TSHE */
 #define XK_Macedonia_kje                 0x06ac  /* U+045C CYRILLIC SMALL LETTER KJE */
 #define XK_Ukrainian_ghe_with_upturn     0x06ad  /* U+0491 CYRILLIC SMALL LETTER GHE WITH UPTURN */
 #define XK_Byelorussian_shortu           0x06ae  /* U+045E CYRILLIC SMALL LETTER SHORT U */
 #define XK_Cyrillic_dzhe                 0x06af  /* U+045F CYRILLIC SMALL LETTER DZHE */
+#define XK_Serbian_dze                   0x06af  /* deprecated */
 #define XK_numerosign                    0x06b0  /* U+2116 NUMERO SIGN */
 #define XK_Serbian_DJE                   0x06b1  /* U+0402 CYRILLIC CAPITAL LETTER DJE */
 #define XK_Macedonia_GJE                 0x06b2  /* U+0403 CYRILLIC CAPITAL LETTER GJE */
 #define XK_Cyrillic_IO                   0x06b3  /* U+0401 CYRILLIC CAPITAL LETTER IO */
 #define XK_Ukrainian_IE                  0x06b4  /* U+0404 CYRILLIC CAPITAL LETTER UKRAINIAN IE */
+#define XK_Ukranian_JE                   0x06b4  /* deprecated */
 #define XK_Macedonia_DSE                 0x06b5  /* U+0405 CYRILLIC CAPITAL LETTER DZE */
 #define XK_Ukrainian_I                   0x06b6  /* U+0406 CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I */
+#define XK_Ukranian_I                    0x06b6  /* deprecated */
 #define XK_Ukrainian_YI                  0x06b7  /* U+0407 CYRILLIC CAPITAL LETTER YI */
+#define XK_Ukranian_YI                   0x06b7  /* deprecated */
 #define XK_Cyrillic_JE                   0x06b8  /* U+0408 CYRILLIC CAPITAL LETTER JE */
+#define XK_Serbian_JE                    0x06b8  /* deprecated */
 #define XK_Cyrillic_LJE                  0x06b9  /* U+0409 CYRILLIC CAPITAL LETTER LJE */
+#define XK_Serbian_LJE                   0x06b9  /* deprecated */
 #define XK_Cyrillic_NJE                  0x06ba  /* U+040A CYRILLIC CAPITAL LETTER NJE */
+#define XK_Serbian_NJE                   0x06ba  /* deprecated */
 #define XK_Serbian_TSHE                  0x06bb  /* U+040B CYRILLIC CAPITAL LETTER TSHE */
 #define XK_Macedonia_KJE                 0x06bc  /* U+040C CYRILLIC CAPITAL LETTER KJE */
 #define XK_Ukrainian_GHE_WITH_UPTURN     0x06bd  /* U+0490 CYRILLIC CAPITAL LETTER GHE WITH UPTURN */
 #define XK_Byelorussian_SHORTU           0x06be  /* U+040E CYRILLIC CAPITAL LETTER SHORT U */
 #define XK_Cyrillic_DZHE                 0x06bf  /* U+040F CYRILLIC CAPITAL LETTER DZHE */
+#define XK_Serbian_DZE                   0x06bf  /* deprecated */
 #define XK_Cyrillic_yu                   0x06c0  /* U+044E CYRILLIC SMALL LETTER YU */
 #define XK_Cyrillic_a                    0x06c1  /* U+0430 CYRILLIC SMALL LETTER A */
 #define XK_Cyrillic_be                   0x06c2  /* U+0431 CYRILLIC SMALL LETTER BE */
