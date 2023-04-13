@@ -425,8 +425,10 @@ SOFTWARE.
 #define XK_dead_O                        0xfe87
 #define XK_dead_u                        0xfe88
 #define XK_dead_U                        0xfe89
-#define XK_dead_small_schwa              0xfe8a
-#define XK_dead_capital_schwa            0xfe8b
+#define XK_dead_schwa                    0xfe8a
+#define XK_dead_SCHWA                    0xfe8b
+#define XK_dead_small_schwa              0xfe8a  /* deprecated, remove in 2025 */
+#define XK_dead_capital_schwa            0xfe8b  /* deprecated, remove in 2025 */
 
 #define XK_dead_greek                    0xfe8c
 
