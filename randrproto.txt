@@ -1695,7 +1695,7 @@ dynamic changes in the display environment.
 
 	If an 'info.output' contains only the automatically generated default
 	monitor, this is replaced by the new monitor. If the 'info.output' already
-	contains a user defined monitor, the new monitor will be added.
+	contains a user-defined monitor, the new monitor will be added.
 	This allows to have more than one monitor on an output (e.g. to split an
 	output into multiple virtual monitors).
 
@@ -1720,7 +1720,7 @@ dynamic changes in the display environment.
 	'name' must match the name of a Monitor on the screen, or a
 	Value error results.
 
-	If the last user defined monitor is removed from an 'info.output',
+	If the last user-defined monitor is removed from an 'info.output',
 	the automatically generated default monitor will be restored. It is not
 	possible to delete the automatically generated default monitor.
 
