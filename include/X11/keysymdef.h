@@ -196,7 +196,7 @@ SOFTWARE.
 #define XK_Help                          0xff6a  /* Help */
 #define XK_Break                         0xff6b
 #define XK_Mode_switch                   0xff7e  /* Character set switch */
-#define XK_script_switch                 0xff7e  /* Alias for mode_switch */
+#define XK_script_switch                 0xff7e  /* Alias for Mode_switch */
 #define XK_Num_Lock                      0xff7f
 
 /* Keypad functions, keypad numbers cleverly chosen to map to ASCII */
@@ -344,7 +344,7 @@ SOFTWARE.
 #define XK_ISO_Level5_Shift              0xfe11
 #define XK_ISO_Level5_Latch              0xfe12
 #define XK_ISO_Level5_Lock               0xfe13
-#define XK_ISO_Group_Shift               0xff7e  /* Alias for mode_switch */
+#define XK_ISO_Group_Shift               0xff7e  /* Alias for Mode_switch */
 #define XK_ISO_Group_Latch               0xfe06
 #define XK_ISO_Group_Lock                0xfe07
 #define XK_ISO_Next_Group                0xfe08
@@ -999,7 +999,7 @@ SOFTWARE.
 #define XK_kana_N                        0x04dd  /* U+30F3 KATAKANA LETTER N */
 #define XK_voicedsound                   0x04de  /* U+309B KATAKANA-HIRAGANA VOICED SOUND MARK */
 #define XK_semivoicedsound               0x04df  /* U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK */
-#define XK_kana_switch                   0xff7e  /* Alias for mode_switch */
+#define XK_kana_switch                   0xff7e  /* Alias for Mode_switch */
 #endif /* XK_KATAKANA */
 
 /*
@@ -1098,7 +1098,7 @@ SOFTWARE.
 #define XK_Arabic_farsi_yeh           0x10006cc  /* U+06CC ARABIC LETTER FARSI YEH */
 #define XK_Arabic_yeh_baree           0x10006d2  /* U+06D2 ARABIC LETTER YEH BARREE */
 #define XK_Arabic_heh_goal            0x10006c1  /* U+06C1 ARABIC LETTER HEH GOAL */
-#define XK_Arabic_switch                 0xff7e  /* Alias for mode_switch */
+#define XK_Arabic_switch                 0xff7e  /* Alias for Mode_switch */
 #endif /* XK_ARABIC */
 
 /*
@@ -1330,7 +1330,7 @@ SOFTWARE.
 #define XK_Greek_chi                     0x07f7  /* U+03C7 GREEK SMALL LETTER CHI */
 #define XK_Greek_psi                     0x07f8  /* U+03C8 GREEK SMALL LETTER PSI */
 #define XK_Greek_omega                   0x07f9  /* U+03C9 GREEK SMALL LETTER OMEGA */
-#define XK_Greek_switch                  0xff7e  /* Alias for mode_switch */
+#define XK_Greek_switch                  0xff7e  /* Alias for Mode_switch */
 #endif /* XK_GREEK */
 
 /*
@@ -1590,7 +1590,7 @@ SOFTWARE.
 #define XK_hebrew_shin                   0x0cf9  /* U+05E9 HEBREW LETTER SHIN */
 #define XK_hebrew_taw                    0x0cfa  /* U+05EA HEBREW LETTER TAV */
 #define XK_hebrew_taf                    0x0cfa  /* deprecated */
-#define XK_Hebrew_switch                 0xff7e  /* Alias for mode_switch */
+#define XK_Hebrew_switch                 0xff7e  /* Alias for Mode_switch */
 #endif /* XK_HEBREW */
 
 /*
@@ -1707,7 +1707,7 @@ SOFTWARE.
 #define XK_Hangul_MultipleCandidate      0xff3d  /* Multiple candidate */
 #define XK_Hangul_PreviousCandidate      0xff3e  /* Previous candidate */
 #define XK_Hangul_Special                0xff3f  /* Special symbols */
-#define XK_Hangul_switch                 0xff7e  /* Alias for mode_switch */
+#define XK_Hangul_switch                 0xff7e  /* Alias for Mode_switch */
 
 /* Hangul Consonant Characters */
 #define XK_Hangul_Kiyeog                 0x0ea1  /* U+3131 HANGUL LETTER KIYEOK */
