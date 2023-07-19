@@ -1268,7 +1268,7 @@ SOFTWARE.
 #define XK_Greek_ETAaccent               0x07a3  /* U+0389 GREEK CAPITAL LETTER ETA WITH TONOS */
 #define XK_Greek_IOTAaccent              0x07a4  /* U+038A GREEK CAPITAL LETTER IOTA WITH TONOS */
 #define XK_Greek_IOTAdieresis            0x07a5  /* U+03AA GREEK CAPITAL LETTER IOTA WITH DIALYTIKA */
-#define XK_Greek_IOTAdiaeresis           0x07a5  /* old typo */
+#define XK_Greek_IOTAdiaeresis           0x07a5  /* deprecated (old typo) */
 #define XK_Greek_OMICRONaccent           0x07a7  /* U+038C GREEK CAPITAL LETTER OMICRON WITH TONOS */
 #define XK_Greek_UPSILONaccent           0x07a8  /* U+038E GREEK CAPITAL LETTER UPSILON WITH TONOS */
 #define XK_Greek_UPSILONdieresis         0x07a9  /* U+03AB GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA */
@@ -1664,7 +1664,7 @@ SOFTWARE.
 #define XK_Thai_sarau                    0x0dd8  /* U+0E38 THAI CHARACTER SARA U */
 #define XK_Thai_sarauu                   0x0dd9  /* U+0E39 THAI CHARACTER SARA UU */
 #define XK_Thai_phinthu                  0x0dda  /* U+0E3A THAI CHARACTER PHINTHU */
-#define XK_Thai_maihanakat_maitho        0x0dde
+#define XK_Thai_maihanakat_maitho        0x0dde  /* (U+0E3E Unassigned code point) */
 #define XK_Thai_baht                     0x0ddf  /* U+0E3F THAI CURRENCY SYMBOL BAHT */
 #define XK_Thai_sarae                    0x0de0  /* U+0E40 THAI CHARACTER SARA E */
 #define XK_Thai_saraae                   0x0de1  /* U+0E41 THAI CHARACTER SARA AE */
