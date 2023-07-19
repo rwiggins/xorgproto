@@ -81,8 +81,15 @@ SOFTWARE.
  * existing legacy keysym values in the range 0x0100 to 0x20ff.
  *
  * Where several mnemonic names are defined for the same keysym in this
- * file, all but the first one listed should be considered deprecated.
+ * file, all but the first one listed should be considered deprecated,
+ * unless the comment explicitly states the alias, e.g.:
+ * 
+ *     #define XK_dead_tilde            0xfe53
+ *     #define XK_dead_perispomeni      0xfe53 // alias for dead_tilde
  *
+ * Additionally, a keysym can be explicitly deprecated by starting the
+ * comment with "deprecated".
+ * 
  * Mnemonic names for keysyms are defined in this file with lines
  * that match one of these Perl regular expressions:
  *
