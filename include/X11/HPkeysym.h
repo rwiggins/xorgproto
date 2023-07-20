@@ -79,7 +79,7 @@ performance, or use of this material.
 #define hpXK_lira                    0x100000af
 #define hpXK_guilder                 0x100000be
 #define hpXK_Ydiaeresis              0x100000ee
-#define hpXK_IO                      0x100000ee
+#define hpXK_IO                      0x100000ee  /* deprecated alias for hpYdiaeresis */
 #define hpXK_longminus               0x100000f6
 #define hpXK_block                   0x100000fc
 
@@ -135,30 +135,30 @@ performance, or use of this material.
  * The use of the following macros is deprecated.
  * They are listed below only for backwards compatibility.
  */
-#define XK_Reset                     0x1000ff6c
-#define XK_System                    0x1000ff6d
-#define XK_User                      0x1000ff6e
-#define XK_ClearLine                 0x1000ff6f
-#define XK_InsertLine                0x1000ff70
-#define XK_DeleteLine                0x1000ff71
-#define XK_InsertChar                0x1000ff72
-#define XK_DeleteChar                0x1000ff73
-#define XK_BackTab                   0x1000ff74
-#define XK_KP_BackTab                0x1000ff75
-#define XK_Ext16bit_L                0x1000ff76
-#define XK_Ext16bit_R                0x1000ff77
-#define XK_mute_acute                0x100000a8
-#define XK_mute_grave                0x100000a9
-#define XK_mute_asciicircum          0x100000aa
-#define XK_mute_diaeresis            0x100000ab
-#define XK_mute_asciitilde           0x100000ac
-#define XK_lira                      0x100000af
-#define XK_guilder                   0x100000be
+#define XK_Reset                     0x1000ff6c  /* deprecated alias for hpReset */
+#define XK_System                    0x1000ff6d  /* deprecated alias for hpSystem */
+#define XK_User                      0x1000ff6e  /* deprecated alias for hpUser */
+#define XK_ClearLine                 0x1000ff6f  /* deprecated alias for hpClearLine */
+#define XK_InsertLine                0x1000ff70  /* deprecated alias for hpInsertLine */
+#define XK_DeleteLine                0x1000ff71  /* deprecated alias for hpDeleteLine */
+#define XK_InsertChar                0x1000ff72  /* deprecated alias for hpInsertChar */
+#define XK_DeleteChar                0x1000ff73  /* deprecated alias for hpDeleteChar */
+#define XK_BackTab                   0x1000ff74  /* deprecated alias for hpBackTab */
+#define XK_KP_BackTab                0x1000ff75  /* deprecated alias for hpKP_BackTab */
+#define XK_Ext16bit_L                0x1000ff76  /* deprecated */
+#define XK_Ext16bit_R                0x1000ff77  /* deprecated */
+#define XK_mute_acute                0x100000a8  /* deprecated alias for hpmute_acute */
+#define XK_mute_grave                0x100000a9  /* deprecated alias for hpmute_grave */
+#define XK_mute_asciicircum          0x100000aa  /* deprecated alias for hpmute_asciicircum */
+#define XK_mute_diaeresis            0x100000ab  /* deprecated alias for hpmute_diaeresis */
+#define XK_mute_asciitilde           0x100000ac  /* deprecated alias for hpmute_asciitilde */
+#define XK_lira                      0x100000af  /* deprecated alias for hplira */
+#define XK_guilder                   0x100000be  /* deprecated alias for hpguilder */
 #ifndef XK_Ydiaeresis
-#define XK_Ydiaeresis                0x100000ee
+#define XK_Ydiaeresis                0x100000ee  /* deprecated */
 #endif
-#define XK_IO                        0x100000ee
-#define XK_longminus                 0x100000f6
-#define XK_block                     0x100000fc
+#define XK_IO                        0x100000ee  /* deprecated alias for hpYdiaeresis */
+#define XK_longminus                 0x100000f6  /* deprecated alias for hplongminus */
+#define XK_block                     0x100000fc  /* deprecated alias for hpblock */
 
 #endif /* _HPKEYSYM_H */

@@ -191,9 +191,9 @@ SOFTWARE.
 #define XK_Right                         0xff53  /* Move right, right arrow */
 #define XK_Down                          0xff54  /* Move down, down arrow */
 #define XK_Prior                         0xff55  /* Prior, previous */
-#define XK_Page_Up                       0xff55
+#define XK_Page_Up                       0xff55  /* deprecated alias for Prior */
 #define XK_Next                          0xff56  /* Next */
-#define XK_Page_Down                     0xff56
+#define XK_Page_Down                     0xff56  /* deprecated alias for Next */
 #define XK_End                           0xff57  /* EOL */
 #define XK_Begin                         0xff58  /* BOL */
 
@@ -230,9 +230,9 @@ SOFTWARE.
 #define XK_KP_Right                      0xff98
 #define XK_KP_Down                       0xff99
 #define XK_KP_Prior                      0xff9a
-#define XK_KP_Page_Up                    0xff9a
+#define XK_KP_Page_Up                    0xff9a  /* deprecated alias for KP_Prior */
 #define XK_KP_Next                       0xff9b
-#define XK_KP_Page_Down                  0xff9b
+#define XK_KP_Page_Down                  0xff9b  /* deprecated alias for KP_Next */
 #define XK_KP_End                        0xff9c
 #define XK_KP_Begin                      0xff9d
 #define XK_KP_Insert                     0xff9e
@@ -276,55 +276,55 @@ SOFTWARE.
 #define XK_F9                            0xffc6
 #define XK_F10                           0xffc7
 #define XK_F11                           0xffc8
-#define XK_L1                            0xffc8
+#define XK_L1                            0xffc8  /* deprecated alias for F11 */
 #define XK_F12                           0xffc9
-#define XK_L2                            0xffc9
+#define XK_L2                            0xffc9  /* deprecated alias for F12 */
 #define XK_F13                           0xffca
-#define XK_L3                            0xffca
+#define XK_L3                            0xffca  /* deprecated alias for F13 */
 #define XK_F14                           0xffcb
-#define XK_L4                            0xffcb
+#define XK_L4                            0xffcb  /* deprecated alias for F14 */
 #define XK_F15                           0xffcc
-#define XK_L5                            0xffcc
+#define XK_L5                            0xffcc  /* deprecated alias for F15 */
 #define XK_F16                           0xffcd
-#define XK_L6                            0xffcd
+#define XK_L6                            0xffcd  /* deprecated alias for F16 */
 #define XK_F17                           0xffce
-#define XK_L7                            0xffce
+#define XK_L7                            0xffce  /* deprecated alias for F17 */
 #define XK_F18                           0xffcf
-#define XK_L8                            0xffcf
+#define XK_L8                            0xffcf  /* deprecated alias for F18 */
 #define XK_F19                           0xffd0
-#define XK_L9                            0xffd0
+#define XK_L9                            0xffd0  /* deprecated alias for F19 */
 #define XK_F20                           0xffd1
-#define XK_L10                           0xffd1
+#define XK_L10                           0xffd1  /* deprecated alias for F20 */
 #define XK_F21                           0xffd2
-#define XK_R1                            0xffd2
+#define XK_R1                            0xffd2  /* deprecated alias for F21 */
 #define XK_F22                           0xffd3
-#define XK_R2                            0xffd3
+#define XK_R2                            0xffd3  /* deprecated alias for F22 */
 #define XK_F23                           0xffd4
-#define XK_R3                            0xffd4
+#define XK_R3                            0xffd4  /* deprecated alias for F23 */
 #define XK_F24                           0xffd5
-#define XK_R4                            0xffd5
+#define XK_R4                            0xffd5  /* deprecated alias for F24 */
 #define XK_F25                           0xffd6
-#define XK_R5                            0xffd6
+#define XK_R5                            0xffd6  /* deprecated alias for F25 */
 #define XK_F26                           0xffd7
-#define XK_R6                            0xffd7
+#define XK_R6                            0xffd7  /* deprecated alias for F26 */
 #define XK_F27                           0xffd8
-#define XK_R7                            0xffd8
+#define XK_R7                            0xffd8  /* deprecated alias for F27 */
 #define XK_F28                           0xffd9
-#define XK_R8                            0xffd9
+#define XK_R8                            0xffd9  /* deprecated alias for F28 */
 #define XK_F29                           0xffda
-#define XK_R9                            0xffda
+#define XK_R9                            0xffda  /* deprecated alias for F29 */
 #define XK_F30                           0xffdb
-#define XK_R10                           0xffdb
+#define XK_R10                           0xffdb  /* deprecated alias for F30 */
 #define XK_F31                           0xffdc
-#define XK_R11                           0xffdc
+#define XK_R11                           0xffdc  /* deprecated alias for F31 */
 #define XK_F32                           0xffdd
-#define XK_R12                           0xffdd
+#define XK_R12                           0xffdd  /* deprecated alias for F32 */
 #define XK_F33                           0xffde
-#define XK_R13                           0xffde
+#define XK_R13                           0xffde  /* deprecated alias for F33 */
 #define XK_F34                           0xffdf
-#define XK_R14                           0xffdf
+#define XK_R14                           0xffdf  /* deprecated alias for F34 */
 #define XK_F35                           0xffe0
-#define XK_R15                           0xffe0
+#define XK_R15                           0xffe0  /* deprecated alias for F35 */
 
 /* Modifiers */
 
@@ -713,7 +713,7 @@ SOFTWARE.
 #define XK_Odiaeresis                    0x00d6  /* U+00D6 LATIN CAPITAL LETTER O WITH DIAERESIS */
 #define XK_multiply                      0x00d7  /* U+00D7 MULTIPLICATION SIGN */
 #define XK_Oslash                        0x00d8  /* U+00D8 LATIN CAPITAL LETTER O WITH STROKE */
-#define XK_Ooblique                      0x00d8  /* U+00D8 LATIN CAPITAL LETTER O WITH STROKE */
+#define XK_Ooblique                      0x00d8  /* deprecated alias for Oslash */
 #define XK_Ugrave                        0x00d9  /* U+00D9 LATIN CAPITAL LETTER U WITH GRAVE */
 #define XK_Uacute                        0x00da  /* U+00DA LATIN CAPITAL LETTER U WITH ACUTE */
 #define XK_Ucircumflex                   0x00db  /* U+00DB LATIN CAPITAL LETTER U WITH CIRCUMFLEX */
@@ -747,7 +747,7 @@ SOFTWARE.
 #define XK_odiaeresis                    0x00f6  /* U+00F6 LATIN SMALL LETTER O WITH DIAERESIS */
 #define XK_division                      0x00f7  /* U+00F7 DIVISION SIGN */
 #define XK_oslash                        0x00f8  /* U+00F8 LATIN SMALL LETTER O WITH STROKE */
-#define XK_ooblique                      0x00f8  /* U+00F8 LATIN SMALL LETTER O WITH STROKE */
+#define XK_ooblique                      0x00f8  /* deprecated alias for oslash */
 #define XK_ugrave                        0x00f9  /* U+00F9 LATIN SMALL LETTER U WITH GRAVE */
 #define XK_uacute                        0x00fa  /* U+00FA LATIN SMALL LETTER U WITH ACUTE */
 #define XK_ucircumflex                   0x00fb  /* U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX */
@@ -1111,7 +1111,7 @@ SOFTWARE.
 #define XK_Arabic_noon_ghunna         0x10006ba  /* U+06BA ARABIC LETTER NOON GHUNNA */
 #define XK_Arabic_heh_doachashmee     0x10006be  /* U+06BE ARABIC LETTER HEH DOACHASHMEE */
 #define XK_Farsi_yeh                  0x10006cc  /* U+06CC ARABIC LETTER FARSI YEH */
-#define XK_Arabic_farsi_yeh           0x10006cc  /* U+06CC ARABIC LETTER FARSI YEH */
+#define XK_Arabic_farsi_yeh           0x10006cc  /* deprecated alias for Farsi_yeh */
 #define XK_Arabic_yeh_baree           0x10006d2  /* U+06D2 ARABIC LETTER YEH BARREE */
 #define XK_Arabic_heh_goal            0x10006c1  /* U+06C1 ARABIC LETTER HEH GOAL */
 #define XK_Arabic_switch                 0xff7e  /* Alias for Mode_switch */
@@ -1306,7 +1306,7 @@ SOFTWARE.
 #define XK_Greek_IOTA                    0x07c9  /* U+0399 GREEK CAPITAL LETTER IOTA */
 #define XK_Greek_KAPPA                   0x07ca  /* U+039A GREEK CAPITAL LETTER KAPPA */
 #define XK_Greek_LAMDA                   0x07cb  /* U+039B GREEK CAPITAL LETTER LAMDA */
-#define XK_Greek_LAMBDA                  0x07cb  /* U+039B GREEK CAPITAL LETTER LAMDA */
+#define XK_Greek_LAMBDA                  0x07cb  /* alias for Greek_LAMDA */
 #define XK_Greek_MU                      0x07cc  /* U+039C GREEK CAPITAL LETTER MU */
 #define XK_Greek_NU                      0x07cd  /* U+039D GREEK CAPITAL LETTER NU */
 #define XK_Greek_XI                      0x07ce  /* U+039E GREEK CAPITAL LETTER XI */
@@ -1331,7 +1331,7 @@ SOFTWARE.
 #define XK_Greek_iota                    0x07e9  /* U+03B9 GREEK SMALL LETTER IOTA */
 #define XK_Greek_kappa                   0x07ea  /* U+03BA GREEK SMALL LETTER KAPPA */
 #define XK_Greek_lamda                   0x07eb  /* U+03BB GREEK SMALL LETTER LAMDA */
-#define XK_Greek_lambda                  0x07eb  /* U+03BB GREEK SMALL LETTER LAMDA */
+#define XK_Greek_lambda                  0x07eb  /* alias for Greek_lamda */
 #define XK_Greek_mu                      0x07ec  /* U+03BC GREEK SMALL LETTER MU */
 #define XK_Greek_nu                      0x07ed  /* U+03BD GREEK SMALL LETTER NU */
 #define XK_Greek_xi                      0x07ee  /* U+03BE GREEK SMALL LETTER XI */
@@ -1839,17 +1839,17 @@ SOFTWARE.
 #ifdef XK_ARMENIAN
 #define XK_Armenian_ligature_ew       0x1000587  /* U+0587 ARMENIAN SMALL LIGATURE ECH YIWN */
 #define XK_Armenian_full_stop         0x1000589  /* U+0589 ARMENIAN FULL STOP */
-#define XK_Armenian_verjaket          0x1000589  /* U+0589 ARMENIAN FULL STOP */
+#define XK_Armenian_verjaket          0x1000589  /* deprecated alias for Armenian_full_stop */
 #define XK_Armenian_separation_mark   0x100055d  /* U+055D ARMENIAN COMMA */
-#define XK_Armenian_but               0x100055d  /* U+055D ARMENIAN COMMA */
+#define XK_Armenian_but               0x100055d  /* deprecated alias for Armenian_separation_mark */
 #define XK_Armenian_hyphen            0x100058a  /* U+058A ARMENIAN HYPHEN */
-#define XK_Armenian_yentamna          0x100058a  /* U+058A ARMENIAN HYPHEN */
+#define XK_Armenian_yentamna          0x100058a  /* deprecated alias for Armenian_hyphen */
 #define XK_Armenian_exclam            0x100055c  /* U+055C ARMENIAN EXCLAMATION MARK */
-#define XK_Armenian_amanak            0x100055c  /* U+055C ARMENIAN EXCLAMATION MARK */
+#define XK_Armenian_amanak            0x100055c  /* deprecated alias for Armenian_exclam */
 #define XK_Armenian_accent            0x100055b  /* U+055B ARMENIAN EMPHASIS MARK */
-#define XK_Armenian_shesht            0x100055b  /* U+055B ARMENIAN EMPHASIS MARK */
+#define XK_Armenian_shesht            0x100055b  /* deprecated alias for Armenian_accent */
 #define XK_Armenian_question          0x100055e  /* U+055E ARMENIAN QUESTION MARK */
-#define XK_Armenian_paruyk            0x100055e  /* U+055E ARMENIAN QUESTION MARK */
+#define XK_Armenian_paruyk            0x100055e  /* deprecated alias for Armenian_question */
 #define XK_Armenian_AYB               0x1000531  /* U+0531 ARMENIAN CAPITAL LETTER AYB */
 #define XK_Armenian_ayb               0x1000561  /* U+0561 ARMENIAN SMALL LETTER AYB */
 #define XK_Armenian_BEN               0x1000532  /* U+0532 ARMENIAN CAPITAL LETTER BEN */
